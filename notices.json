@@ -2,6 +2,24 @@
   "_comment": "数極アプリのお知らせ。ここを編集して git push すると、アプリを更新しなくても数分で全端末に反映されます。書式は https://github.com/ottub/MathProblemApp の tools/notices_schema.md を参照。",
   "notices": [
     {
+      "id": 99,
+      "date": "2026/7/17",
+      "title": "配信テスト（あとで消します）",
+      "body": "この項目が出ていれば、アプリ更新なしでお知らせを差し替えられています。",
+      "heroIcon": "checkmark.seal.fill",
+      "subtitle": "取得できていることの確認",
+      "bullets": [
+        {
+          "icon": "antenna.radiowaves.left.and.right",
+          "text": "GitHub Pages から取得"
+        },
+        {
+          "icon": "zzz_not_a_real_symbol",
+          "text": "存在しない記号は既定アイコンに落ちる"
+        }
+      ]
+    },
+    {
       "id": 1,
       "date": "2026/7/1",
       "title": "シーズン1 開幕！",
@@ -9,11 +27,26 @@
       "heroIcon": "flame.fill",
       "subtitle": "開催期間　2026/7/1 〜 8/31",
       "bullets": [
-        { "icon": "graduationcap.fill",        "text": "学年を選んで、1日1回の極位戦に挑戦" },
-        { "icon": "chart.line.uptrend.xyaxis", "text": "正解でレートが上がり、ランクが昇格" },
-        { "icon": "list.number",               "text": "ランキングは学年別（高3は文系・理系別）" },
-        { "icon": "clock.badge.checkmark",     "text": "開始から3日間はランキング集計期間" },
-        { "icon": "rosette",                   "text": "終了時のランクに応じて称号（二つ名）を獲得" }
+        {
+          "icon": "graduationcap.fill",
+          "text": "学年を選んで、1日1回の極位戦に挑戦"
+        },
+        {
+          "icon": "chart.line.uptrend.xyaxis",
+          "text": "正解でレートが上がり、ランクが昇格"
+        },
+        {
+          "icon": "list.number",
+          "text": "ランキングは学年別（高3は文系・理系別）"
+        },
+        {
+          "icon": "clock.badge.checkmark",
+          "text": "開始から3日間はランキング集計期間"
+        },
+        {
+          "icon": "rosette",
+          "text": "終了時のランクに応じて称号（二つ名）を獲得"
+        }
       ],
       "highlight": "レートが上がるほど手強い問題が出題されます。今シーズンの頂点「数極マスター」を目指そう！"
     }
